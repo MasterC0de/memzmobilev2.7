@@ -1,7 +1,7 @@
 --version 1.7 last updated on 13-1-2023
 
 --Defining the ui library
-local Rayfield = loadstring(readfile('MemzWare/Assets/UiLib.lua'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
 	Name = "MemzWare | 1.7",
