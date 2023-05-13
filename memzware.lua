@@ -8,12 +8,12 @@ local Window = Rayfield:CreateWindow({
 	LoadingTitle = "Loading..",
 	LoadingSubtitle = "by Memz#7217",
 	ConfigurationSaving = {
-		Enabled = true,
+		Enabled = false,
 		FolderName = "MemzWare", -- Create a custom folder for your hub/game
 		FileName = "ConfigurationBedwars"
 	},
         Discord = {
-        	Enabled = true,
+        	Enabled = false,
         	Invite = "ruvuWm4yD4", -- The Discord invite code, do not include discord.gg/
         	RememberJoins = false -- Set this to false to make them join the discord every time they load it up
         },
@@ -23,7 +23,7 @@ local Window = Rayfield:CreateWindow({
 		Subtitle = "Key System",
 		Note = "Join the discord (https://discord.gg/ruvuWm4yD4)",
 		FileName = "VapeBedwarsData",
-		SaveKey = true,
+		SaveKey = false,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 		Key = "MemzWare"
 	}
